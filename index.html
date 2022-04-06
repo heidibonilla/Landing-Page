@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Landing Page</title>
+ <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.min.css"/>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- HEADER -->
+ <header id="header">
+  <!-- NAV BAR -->
+  <nav class="nav-bar" id="nav-bar">
+   <!-- MAX-WIDTH: 1170PX -->
+   <div class="nav-center">
+    <!-- NAV HEADER -->
+    <div class="nav-header">
+     <img src="./images/logo.svg" alt="logo image" class="header-img" id="header-img">
+     <button type="button" class="nav-toggle" id="nav-toggle">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="37" viewBox="0 0 50 37">
+       <g id="Group_39" data-name="Group 39" transform="translate(-37 -25)">
+        <rect id="Rectangle_95" data-name="Rectangle 95" width="50" height="7" rx="3.5" transform="translate(37 25)"
+         fill="#fff" />
+        <rect id="Rectangle_96" data-name="Rectangle 96" width="50" height="7" rx="3.5" transform="translate(37 40)"
+         fill="#fff" />
+        <rect id="Rectangle_97" data-name="Rectangle 97" width="50" height="7" rx="3.5" transform="translate(37 55)"
+         fill="#fff" />
+       </g>
+      </svg>
+    </button>
+    </div>
+    <!-- END OF NAV HEADER -->
+    <!-- NAV LINKS -->
+    <ul class="nav-links" id="nav-links">
+      <!-- SINGLE LINK -->
+      <li>
+        <a href="#ourWhy" class="nav-link">Why Handmade?</a>
+      </li>
+      <!-- END OF SINGLE LINK -->
+      <!-- SINGLE LINK -->
+      <li>
+        <a href="#products" class="nav-link">Products</a>
+      </li>
+      <!-- END OF SINGLE LINK -->
+      <!-- SINGLE LINK -->
+      <li>
+        <a href="#promotions" class="nav-link">Promotions</a>
+      </li>
+      <!-- END OF SINGLE LINK -->
+    </ul>
+    <!-- END OF NAV LINKS -->
+   </div>
+  </nav>
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-banner section-center">
+      <h1>Pillows handcrafted with love and care.</h1>
+      <p>Subscribe to our newsletter for special offers</p>
+     <div class="email-container">
+       <form action="https://www.freecodecamp.com/email-submit" id="form">
+         <input type="email" placeholder="Email" name="email" id="email" class="subscribe" required>
+         <input type="submit" id="submit">
+       </form>
+     </div>
+    </div>
+  </div>
+ </header>
+ <!-- END OF HEADER -->
+
+ <!-- WHY SECTION -->
+ <section class="ourWhy section section-center" id="ourWhy">
+   <h2 class="section-title">Why Handmade?</h2>
+   <!-- CONTAINER FOR WHYS -->
+   <article class="whys-container">
+     <!-- individual why container -->
+     <div class="small-container">
+       <h3 class="small-title">Green</h3>
+       <p>Each of our products is made with human hands – no machines.</p>
+     </div>
+     <!-- end of individual why container -->
+
+     <!-- individual why container -->
+     <div class="small-container">
+       <h3 class="small-title">Love</h3>
+       <p>Our artists create each product with you in mind.</p>
+     </div>
+     <!-- end of individual why container -->
+
+     <!-- individual why container -->
+     <div class="small-container">
+       <h3 class="small-title">Unique</h3>
+       <p>Don't follow a trend, stand out with a piece nobody else owns but you!</p>
+     </div>
+     <!-- end of individual why container -->
+
+     <!-- individual why container -->
+     <div class="small-container">
+       <h3 class="small-title">Tradition</h3>
+       <p>Techniques that have been perfected over time.</p>
+     </div>
+     <!-- end of individual why container -->
+   </article>
+   <!-- END OF CONTAINER FOR WHYS -->
+ </section>
+ <!-- END OF WHY SECTION -->
+
+ <!-- VIDEO SECTION -->
+ <!-- use iframe or video element -->
+ <section class="video">
+  <iframe id="video" src="https://www.youtube.com/embed/shcX3A6MHaA" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+ </section>
+ <!-- END OF VIDEO SECTION -->
+
+ <!-- PRODUCTS SECTION -->
+ <section class="products section section-center" id="products">
+  <h2 class="section-title">Products</h2>
+  <!-- PRODUCTS CONTAINER -->
+  <article class="products-container">
+    <!-- single product -->
+    <div class="single-product">
+      <img src="./images/imgOne.jpg" alt="White pillows" class="product-img">
+      <h3 class="small-title">Simple and Clean</h3>
+      <p>Pillows that make you feel on the clouds. Invest in serene colors for peaceful mornings.</p>
+      <h4 class="price">$29.99</h4>
+      <button class="btn">Add to Cart</button>
+    </div>
+    <!-- end of single product -->
+
+    <!-- single product -->
+    <div class="single-product">
+      <img src="./images/imgTwo.jpg" alt="White pillows" class="product-img">
+      <h3 class="small-title">Nature Itself</h3>
+      <p>Vibrant colors for an all year round decor. These pillows will make you feel connected with nature!</p>
+      <h4 class="price">$29.99</h4>
+      <button class="btn">Add to Cart</button>
+    </div>
+    <!-- end of single product -->
+
+    <!-- single product -->
+    <div class="single-product">
+      <img src="./images/imgThree.jpg" alt="White pillows" class="product-img">
+      <h3 class="small-title">Calm in the fall</h3>
+      <p>Enjoy peace of mind like the gentle breeze of the fall. Perfect combination between the two.</p>
+      <h4 class="price">$29.99</h4>
+      <button class="btn">Add to Cart</button>
+    </div>
+    <!-- end of single product -->
+  </article>
+  <!-- END OF PRODUCTS CONTAINER -->
+ </section>
+ <!-- END OF PRODUCTS SECTION -->
+ 
+ <!-- PROMOTIONS SECTION -->
+ <section class="promotions section section-center" id="promotions">
+  <h2 class="section-title">Promotions</h2>
+  <!-- PROMO CONTAINER -->
+  <article class="promo-container">
+    <!-- single promo -->
+    <div class="single-promo left-promo">
+      <h4 class="promo-title">Best Offer</h4>
+      <br>
+      <p>Everything in our basic package plus...</p>
+      <br>
+      <p>Be the first to know about our products</p>
+      <br>
+      <p>More customization products</p>
+      <br>
+      <p>Direct contact with our artists</p>
+      <br>
+      <p>Receive 20% off your first handmade pillow!</p>
+      <br>
+      <button class="btn">Become a VIP</button>
+    </div>
+    <!-- end of single promo -->
+
+    <!-- single promo -->
+    <div class="single-promo right-promo">
+      <h4 class="promo-title">Basic</h4>
+      <br>
+      <p>Earn points on each purchase</p>
+      <br>
+      <p>Make your own profile</p>
+      <br>
+      <p>Track your deliveries</p>
+      <br>
+      <p>30 Day refund</p>
+      <br>
+      <button class="btn">Become a Member</button>
+    </div>
+    <!-- end of single promo -->
+  </article>
+  <!-- END OF PROMO CONTAINER -->
+ </section>
+ <!-- END OF PROMOTIONS SECTION -->
+
+ <!-- FOOTER -->
+ <footer class="footer">
+
+   <!-- footer links container -->
+   <article class="footer-container section-center">
+     <!-- NAV LINKS -->
+     <ul class="footer-links" id="footer-links">
+       <!-- SINGLE LINK -->
+       <li>
+         <a href="#ourWhy" class="footer-link">Why Handmade?</a>
+       </li>
+       <!-- END OF SINGLE LINK -->
+       <!-- SINGLE LINK -->
+       <li>
+         <a href="#products" class="footer-link">Products</a>
+       </li>
+       <!-- END OF SINGLE LINK -->
+       <!-- SINGLE LINK -->
+       <li>
+         <a href="#promotions" class="footer-link">Promotions</a>
+       </li>
+       <!-- END OF SINGLE LINK -->
+     </ul>
+     <!-- END OF NAV LINKS -->
+
+     <!-- contact links container -->
+     <div class="contact-links">
+       <p>contact@HandmadePillows.com</p>
+       <div class="social-icons">
+        <a href="http://twitter.com"><img src="./images/twitter.svg" alt="twitter" class="single-icon"></a>
+        <a href="http://instagram.com"><img src="./images/instagram.svg" alt="instagram" class="single-icon"></a>
+        <a href="http://facebook.com"><img src="./images/facebook.svg" alt="facebook" class="single-icon"></a>
+       </div>
+     </div>
+     <!-- end of contact links container -->
+
+   </article>
+   <!-- end of footer links container -->
+
+    <p class="copyright">© Handmade Pillows Inc. All Rights Reserved</p>
+ </footer>
+
+ <script src="./app.js"></script>
+ <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+</html>
